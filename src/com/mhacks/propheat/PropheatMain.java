@@ -15,10 +15,7 @@ import android.os.Bundle;
 import android.os.PowerManager;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 
 public class PropheatMain extends Activity {
     private static final String LOG_TAG = "propheatmain";
@@ -29,9 +26,9 @@ public class PropheatMain extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.main);
+        setContentView(R.layout.main);
         LinearLayout layout = new LinearLayout(this);
-        Button start = new Button(this);
+        Button start = (Button)findViewById(R.id.start);
         start.setText("start");
         start.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +42,7 @@ public class PropheatMain extends Activity {
                 //for (int o=0; o<9999; o++) new PrintPrimesTask().execute();
             }
         });
-        Button stop = new Button(this);
+        Button stop = (Button)findViewById(R.id.stop);
         stop.setText("stop");
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +50,7 @@ public class PropheatMain extends Activity {
                 stopService(new Intent(PropheatMain.this, WastefulService.class));
             }
         });
-        final TextView tempTxt = new TextView(this);
+        final TextView tempTxt = (TextView)findViewById(R.id.temptext);
         tempTxt.setText("temp goes here");
         this.registerReceiver(new BroadcastReceiver() {
             private int i=0;
@@ -68,9 +65,12 @@ public class PropheatMain extends Activity {
             }
         },
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
-        layout.addView(start);
-        layout.addView(stop);
-        layout.addView(tempTxt);
+        String path = "/sdcard/android.mp4";
+        VideoView mVideoView = (VideoView) findViewById(R.id.videoplayer);
+        mVideoView.setVideoPath(path);
+        mVideoView.setMediaController(new MediaController(this));
+        mVideoView.start();
+
         Camera c = null;
         try {
             c = Camera.open(); // attempt to get a Camera instance
@@ -87,7 +87,6 @@ public class PropheatMain extends Activity {
 
 // Alternative you can request and / or  release the wakelook via:
 // wakeLock.acquire(); wakeLock.release();
-        setContentView(layout);
     }
 
     private boolean isPrime(int p) {
