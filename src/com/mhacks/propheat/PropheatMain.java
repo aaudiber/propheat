@@ -1,19 +1,23 @@
 package com.mhacks.propheat;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.hardware.Camera;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.AsyncTask;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class PropheatMain extends Activity {
@@ -36,12 +40,37 @@ public class PropheatMain extends Activity {
 //                for (int i=0; i<10; i++) doitt();
                 for (int i=0; i<20; i++) {
                     Intent service = new Intent(PropheatMain.this, WastefulService.class);
-                    PropheatMain.this.startService(service);
+                    startService(service);
                 }
                 //for (int o=0; o<9999; o++) new PrintPrimesTask().execute();
             }
         });
+        Button stop = new Button(this);
+        stop.setText("stop");
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                stopService(new Intent(PropheatMain.this, WastefulService.class));
+            }
+        });
+        final TextView tempTxt = new TextView(this);
+        tempTxt.setText("temp goes here");
+        this.registerReceiver(new BroadcastReceiver() {
+            private int i=0;
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                int temperature = intent.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0);
+                String s = i+"temperature: "+temperature;
+                Log.d(LOG_TAG, s);
+                Toast.makeText(PropheatMain.this, s, Toast.LENGTH_LONG).show();
+                tempTxt.setText(s);
+                i++;
+            }
+        },
+                new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
         layout.addView(start);
+        layout.addView(stop);
+        layout.addView(tempTxt);
         Camera c = null;
         try {
             c = Camera.open(); // attempt to get a Camera instance

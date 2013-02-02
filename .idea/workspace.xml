@@ -11,7 +11,7 @@
     <file path="$PROJECT_DIR$/res/layout/main.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359784891134" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359788319254" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359790535082" ignored="false" />
-    <file path="/PropheatMain.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359810982356" ignored="false" />
+    <file path="/PropheatMain.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359834914839" ignored="false" />
     <file path="/Dummy.txt" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359786417236" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mhacks/propheat/BuildConfig.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359790461358" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mhacks/propheat/Manifest.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359804954474" ignored="false" />
@@ -87,10 +87,12 @@
       <file leaf-file-name="PropheatMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/PropheatMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="52" selection-start="608" selection-end="608" vertical-scroll-proportion="0.26573426">
+            <state line="78" column="44" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.64568764">
               <folding>
-                <element signature="e#988#1526#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1133#1653#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1758#1960#0" expanded="true" />
+                <element signature="e#1949#1950#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -484,9 +486,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="47" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#988#1526#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1133#1653#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1758#1960#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="63" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,19 +512,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/PropheatMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="608" selection-end="608" vertical-scroll-proportion="0.26573426">
+        <state line="78" column="44" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.64568764">
           <folding>
-            <element signature="e#988#1526#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1133#1653#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1758#1960#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
           </folding>
         </state>
       </provider>
