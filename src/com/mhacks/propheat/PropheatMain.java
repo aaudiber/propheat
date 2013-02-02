@@ -65,11 +65,21 @@ public class PropheatMain extends Activity {
             }
         },
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
-        String path = "/sdcard/android.mp4";
-        VideoView mVideoView = (VideoView) findViewById(R.id.videoplayer);
-        mVideoView.setVideoPath(path);
-        mVideoView.setMediaController(new MediaController(this));
-        mVideoView.start();
+        String path = "/sdcard/fiya";
+        final LinearLayout videos = (LinearLayout)findViewById(R.id.videos);
+        for (int i=0; i<3; i++) {
+            LinearLayout singleVideoLayout = new LinearLayout(this);
+            singleVideoLayout.setLayoutParams(new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,75));
+            VideoView videoView = new VideoView(this);
+            String thepath = path+".mp4";
+            Log.d(LOG_TAG, "path: "+thepath);
+            videoView.setVideoPath(thepath);
+            videoView.setMediaController(new MediaController(this));
+            videoView.start();
+            singleVideoLayout.addView(videoView);
+            videos.addView(singleVideoLayout);
+        }
 
         Camera c = null;
         try {

@@ -3,9 +3,7 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="2.7in QVGA" />
-        <option name="deviceConfiguration" value="Portrait" />
-        <option name="targetHashString" value="android-17" />
+        <option name="device" value="[None]" />
         <option name="theme" value="Theme" />
       </profile>
     </option>
@@ -17,13 +15,13 @@
         <option name="device" value="2.7in QVGA" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
-        <option name="targetHashString" value="android-17" />
+        <option name="targetHashString" value="android-16" />
         <option name="theme" value="Theme" />
       </GlobalState>
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="media" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a147f3d-d916-476d-a3e7-b33846a7d6af" name="Default" comment="" />
@@ -31,14 +29,15 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359788319254" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359790535082" ignored="false" />
-    <file path="/PropheatMain.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359837731552" ignored="false" />
+    <file path="/PropheatMain.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359843543556" ignored="false" />
     <file path="/Dummy.txt" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359786417236" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mhacks/propheat/BuildConfig.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359790461358" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mhacks/propheat/Manifest.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359804954474" ignored="false" />
     <file path="/WastefulService.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359798913597" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359804952596" ignored="false" />
     <file path="/fragment.java" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359834168785" ignored="false" />
-    <file path="/main.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359837689444" ignored="false" />
+    <file path="/main.xml" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359843585357" ignored="false" />
+    <file path="$PROJECT_DIR$/project.properties" changelist="0a147f3d-d916-476d-a3e7-b33846a7d6af" time="1359839021662" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -93,6 +91,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -116,8 +115,9 @@
           <file leaf-file-name="PropheatMain.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/PropheatMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="8" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.70888156">
+                <state line="72" column="61" selection-start="2948" selection-end="2948" vertical-scroll-proportion="0.3860045">
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="e#1045#1565#0" expanded="true" />
                     <element signature="e#1554#1555#0" expanded="true" />
                     <element signature="e#1685#1887#0" expanded="true" />
@@ -130,7 +130,7 @@
           <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="65" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.72">
+                <state line="4" column="65" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -146,7 +146,7 @@
           <file leaf-file-name="WastefulService.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/WastefulService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="55" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0">
+                <state line="29" column="47" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -154,13 +154,13 @@
           </file>
           <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="-2.38">
-                  <folding />
-                </state>
-              </provider>
               <provider editor-type-id="android-designer">
                 <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
@@ -170,13 +170,13 @@
         <leaf>
           <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.70071685">
-                  <folding />
-                </state>
-              </provider>
               <provider editor-type-id="android-designer">
                 <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="38" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3559719">
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
@@ -200,10 +200,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="y" value="22" />
+    <option name="width" value="1358" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -354,11 +353,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.propheat">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -392,6 +391,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -417,19 +429,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -536,33 +535,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="0" y="22" width="1358" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.6724891" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.6724891" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="110" y="122" width="883" height="660" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.6713062" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277439" sideWeight="0.67241377" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28348213" sideWeight="0.6724891" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32119915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="110" y="122" width="883" height="660" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31962866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.6724891" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.6724891" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -628,6 +627,55 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="61" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/PropheatMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="8" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1045#1565#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1685#1887#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="65" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/WastefulService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="55" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="63" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -637,6 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="44" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1045#1565#0" expanded="true" />
             <element signature="e#1554#1555#0" expanded="true" />
             <element signature="e#1685#1887#0" expanded="true" />
@@ -656,18 +705,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="47" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1045#1565#0" expanded="true" />
             <element signature="e#1554#1555#0" expanded="true" />
             <element signature="e#1685#1887#0" expanded="true" />
             <element signature="e#1876#1877#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/WastefulService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="55" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="65" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.72">
+        <state line="4" column="65" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -690,20 +733,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/WastefulService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="-2.38">
+        <state line="29" column="47" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mhacks/propheat/PropheatMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="8" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.70888156">
+        <state line="72" column="61" selection-start="2948" selection-end="2948" vertical-scroll-proportion="0.3860045">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1045#1565#0" expanded="true" />
             <element signature="e#1554#1555#0" expanded="true" />
             <element signature="e#1685#1887#0" expanded="true" />
