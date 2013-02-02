@@ -4,6 +4,12 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="16"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-feature android:name="android.hardware.camera" />
+
+
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="PropheatMain"
                   android:label="@string/app_name">
@@ -12,5 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <service
+                android:name="WastefulService"
+                android:process=":wasteful"
+                android:label="wastefulservice"
+                >
+        </service>
     </application>
 </manifest>
